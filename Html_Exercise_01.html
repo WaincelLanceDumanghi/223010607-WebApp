@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Exercises</title>
+</head>
+<body>
+    <header style="background-color: #333; color: #fff; padding: 10px; text-align: center;">
+        <h1>Links</h1>
+    </header>
+
+    <!-- Code for Link -->
+    <nav style="display: flex; justify-content: center; background-color: #444; padding: 10px;">
+        <a href="#" style="color: #fff; padding: 10px; margin: 0 10px; border-radius: 5px; transition: background-color 0.3s;"
+        onmouseover="this.style.backgroundColor='#555'"
+        onmouseout="this.style.backgroundColor='#444'">Home</a>
+
+        <a href="#" style="color: #fff; padding: 10px; margin: 0 10px; border-radius: 5px; transition: background-color 0.3s;"
+        onmouseover="this.style.backgroundColor='#555'"
+        onmouseout="this.style.backgroundColor='#444'">About Us</a>
+
+        <a href="#" style="color: #fff; padding: 10px; margin: 0 10px; border-radius: 5px; transition: background-color 0.3s;"
+        onmouseover="this.style.backgroundColor='#555'"
+        onmouseout="this.style.backgroundColor='#444'">Contact</a>
+    </nav>    
+    <br>
+    <hr>
+    <br>
+
+    <header style="background-color: #333; color: #734f96; padding: 10px; text-align: center;">
+        <h1>Image</h1>
+    </header>
+    <!-- Code for Image -->
+    <center><img src="josh.jpg" alt="blow my whistle baby~"></center>
+    <br>
+    <hr>
+    <br>
+
+    
+    <header style="background-color: #333; color: #fdfd96; padding: 10px; text-align: center;">
+        <h1>Forms</h1>
+    </header>
+    <!-- Code for Forms -->
+    <form action="#">
+        <label for="username">Name: </label><br>
+        <input type="username" name="username" id="username" 
+        required style="width: 25%; padding: 8px; margin-bottom: 10px;"><br>
+
+        <label for="password":>Password: </label> </label><br>
+        <input type="password" name="password" id="password" 
+        required style="width: 25%; padding: 8px; margin-bottom: 10px;"><br>
+
+        <label for="gender">Gender: </label><br>
+        <!-- Male -->
+        <label style="margin-right: 10px;">
+            <input type="radio" name="gender" value="male">Male
+        </label>
+        <!-- Female -->
+        <label  style="margin-right: 10px;">
+            <input type="radio" name="gender" value="female">Female
+        </label><br><br>
+
+        <label for="checkbox">
+            <input type="checkbox" name="termsNconditions">I accept the terms and conditions
+        </label><br>
+
+        <input type="submit" value="Submit"
+        style="background-color: #7FFFD4; color: #0f52ba; padding: 10px;
+        border: none; border-radius: 5px; cursor: pointer;">
+    </form>
+
+</body>
+</html>
+
