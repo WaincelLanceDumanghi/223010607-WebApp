@@ -6,98 +6,120 @@
     <title>HTML-Exercises</title>
 </head>
 <body style="max-width: 900px; margin: auto; background-color: #f0f0f0; font-family: 'Roboto', sans-serif;">
-    <header style="background-color: #333; color: #fff; padding: 10px; text-align: center;">
-        <h1>Links</h1>
-    </header>
 
-    <!-- Code for Link -->
-    <nav style="display: flex; justify-content: center; background-color: #444; padding: 10px;">
-        <a href="#" style="color: #fff; padding: 10px; margin: 0 10px; border-radius: 5px; transition: background-color 0.3s;"
-        onmouseover="this.style.backgroundColor='#555'"
-        onmouseout="this.style.backgroundColor='#444'">Home</a>
+    <section>
+        <header style="background-color: #333; color: #fff; padding: 10px; text-align: center;">
+            <h1>Links</h1>
+        </header>
+        <!-- Code for Link -->
+        <nav style="display: flex; justify-content: center; background-color: #444; padding: 10px;">
+            <a href="#" style="color: #fff; padding: 10px; margin: 0 10px; border-radius: 5px; transition: background-color 0.3s;"
+            onmouseover="this.style.backgroundColor='#555'"
+            onmouseout="this.style.backgroundColor='#444'">Home</a>
 
-        <a href="#" style="color: #fff; padding: 10px; margin: 0 10px; border-radius: 5px; transition: background-color 0.3s;"
-        onmouseover="this.style.backgroundColor='#555'"
-        onmouseout="this.style.backgroundColor='#444'">About Us</a>
+            <a href="#" style="color: #fff; padding: 10px; margin: 0 10px; border-radius: 5px; transition: background-color 0.3s;"
+            onmouseover="this.style.backgroundColor='#555'"
+            onmouseout="this.style.backgroundColor='#444'">About Us</a>
 
-        <a href="#" style="color: #fff; padding: 10px; margin: 0 10px; border-radius: 5px; transition: background-color 0.3s;"
-        onmouseover="this.style.backgroundColor='#555'"
-        onmouseout="this.style.backgroundColor='#444'">Contact</a>
-    </nav>    
-    <br><hr><br>
+            <a href="#" style="color: #fff; padding: 10px; margin: 0 10px; border-radius: 5px; transition: background-color 0.3s;"
+            onmouseover="this.style.backgroundColor='#555'"
+            onmouseout="this.style.backgroundColor='#444'">Contact</a>
+        </nav>    
+        <br><hr><br>
+    </section>
+ 
 
-    <header style="background-color: #333; color: #734f96; padding: 10px; text-align: center;">
-        <h1>Image</h1>
-    </header>
-    <!-- Code for Image -->
-    <center><img src="josh.jpg" alt="blow my whistle baby~"></center>
-    <br><hr><br>
+    <section>
+        <header style="background-color: #333; color: #734f96; padding: 10px; text-align: center;">
+            <h1>Image</h1>
+        </header>
+        <!-- Code for Image -->
+        <figure>
+            <center><img src="josh.jpg" alt="blow my whistle baby~"></center>
+            <figcaption style="text-align: center;">Photo of Josh Hutcherson that was used in memes recently.</figcaption>
+        </figure>
+        <br><hr><br>
+    </section>
 
-    <header style="background-color: #333; color: #fdfd96; padding: 10px; text-align: center;">
-        <h1>Forms</h1>
-    </header>
-    <!-- Code for Forms -->
-    <form action="#">
-        <label for="username">Name: </label><br>
-        <input type="username" name="username" id="username" 
-        required style="width: 25%; padding: 8px; margin-bottom: 10px;"><br>
 
-        <label for="password":>Password: </label> </label><br>
-        <input type="password" name="password" id="password" 
-        required style="width: 25%; padding: 8px; margin-bottom: 10px;"><br>
+    <section>
+        <header style="background-color: #333; color: #fdfd96; padding: 10px; text-align: center;">
+            <h1>Forms</h1>
+        </header>
+        <!-- Code for Forms -->
+        <form action="#">
+            <label for="username">Name: </label><br>
+            <input type="username" name="username" id="username" 
+            required style="width: 25%; padding: 8px; margin-bottom: 10px;"><br>
 
-        <label for="gender">Gender: </label><br>
-        <!-- Male -->
-        <label style="margin-right: 10px;">
-            <input type="radio" name="gender" value="male">Male
-        </label>
-        <!-- Female -->
-        <label  style="margin-right: 10px;">
-            <input type="radio" name="gender" value="female">Female
-        </label><br><br>
+            <label for="password":>Password: </label> </label><br>
+            <input type="password" name="password" id="password" 
+            required style="width: 25%; padding: 8px; margin-bottom: 10px;"><br>
 
-        <label for="checkbox">
-            <input type="checkbox" name="termsNconditions">I accept the terms and conditions
-        </label><br>
+            <label for="gender">Gender: </label><br>
+            <!-- Male -->
+            <label style="margin-right: 10px;">
+                <input type="radio" name="gender" value="male">Male
+            </label>
+            <!-- Female -->
+            <label  style="margin-right: 10px;">
+                <input type="radio" name="gender" value="female">Female
+            </label><br><br>
 
-        <input type="submit" value="Submit"
-        style="background-color: #7FFFD4; color: #0f52ba; padding: 10px;
-        border: none; border-radius: 5px; cursor: pointer;">
-    </form>
-    <br><hr><br>
+            <label for="checkbox">
+                <input type="checkbox" name="termsNconditions">I accept the terms and conditions
+            </label><br>
 
-    <header style="background-color: #333; color: #52c64a; padding: 10px; text-align: center;">
-        <h1>Tables</h1>
-    </header>
-    <!-- Code for Table -->
-    <table style="width: 40%; border-collapse: collapse; margin: 20px auto;">
-        <thead>
-            <tr style="background-color: #4caf50; color: #fff; text-align: left;">
-                <th style="padding: 10px;">Name</th>
-                <th style="padding: 10px;">Age</th>
-                <th style="padding: 10px;">City</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td style="padding: 10px; border-bottom: 1px solid #ddd;">John</td>
-                <td style="padding: 10px; border-bottom: 1px solid #ddd;">25</td>
-                <td style="padding: 10px; border-bottom: 1px solid #ddd;">New York</td>
-            </tr>
-            <tr>
-                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Jane</td>
-                <td style="padding: 10px; border-bottom: 1px solid #ddd;">30</td>
-                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Los Angeles</td>
-            </tr>
-        </tbody>
-    </table>
-    <br><hr><br>
+            <input type="submit" value="Submit"
+            style="background-color: #7FFFD4; color: #0f52ba; padding: 10px;
+            border: none; border-radius: 5px; cursor: pointer;">
+        </form>
+        <br><hr><br>
+    </section>
 
-    <header style="background-color: #333; color: #d61783; padding: 10px; text-align: center;">
-        <h1>Audio and Video</h1>
-    </header>
-    <!-- Code for Audio and Video -->
-    
+
+    <section>
+        <header style="background-color: #333; color: #52c64a; padding: 10px; text-align: center;">
+            <h1>Tables</h1>
+        </header>
+        <!-- Code for Table -->
+        <table style="width: 40%; border-collapse: collapse; margin: 20px auto;">
+            <thead>
+                <tr style="background-color: #4caf50; color: #fff; text-align: left;">
+                    <th style="padding: 10px;">Name</th>
+                    <th style="padding: 10px;">Age</th>
+                    <th style="padding: 10px;">City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">John</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">25</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">New York</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">Jane</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">30</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">Los Angeles</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><hr><br>
+    </section>
+
+    <section>
+        <header style="background-color: #333; color: #d61783; padding: 10px; text-align: center;">
+            <h1>Audio and Video</h1>
+        </header>
+        <!-- Code for Audio and Video -->
+        <audio src="html_ex1_music.mp3" controls></audio><br><br>
+        <video src="html_ex1_video.mp4" width="320px" height="240px" controls></video><br><hr>
+    </section>
+
+    <footer>
+        <p><i>© HTML_Exercise_01 <b>WAINCELLANCEDUMANGHI</b></i></p>
+    </footer>
+
 </body>
 </html>
 
