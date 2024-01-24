@@ -4,11 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML-Exercises</title>
+
+    <style>
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        form {
+            display: inline-block;
+        }
+
+        audio {
+            display: block;
+            margin: 0 auto;
+        }
+
+        video {
+            display: block;
+            margin: 0 auto;
+        }
+
+    </style>
 </head>
-<body style="max-width: 900px; margin: auto; background-color: #d5d0d0; font-family: 'Roboto', sans-serif;">
+<body style="max-width: 900px; margin: auto; background-color: #d5d0d0; font-family: 'Roboto', sans-serif; text-align: center;">
 
     <section>
-        <header style="background-color: #333; color: #734f96; padding: 10px; text-align: center;">
+        <header style="background-color: #333; color: #985ed1; padding: 10px; text-align: center;">
             <h1>Links</h1>
         </header>
         <!-- Code for Link -->
@@ -30,24 +52,24 @@
  
 
     <section>
-        <header style="background-color: #333; color: #734f96; padding: 10px; text-align: center;">
+        <header style="background-color: #333; color: #985ed1; padding: 10px; text-align: center;">
             <h1>Image</h1>
         </header>
         <!-- Code for Image -->
         <figure>
-            <center><img src="josh.jpg" alt="blow my whistle baby~"></center>
-            <figcaption style="text-align: center;">Photo of Josh Hutcherson that was used in memes recently.</figcaption>
+            <img src="josh.jpg" alt="blow my whistle baby~">
+            <figcaption style="text-align: center; padding: 10px;">Photo of Josh Hutcherson that was used in memes recently.</figcaption>
         </figure>
         <br><hr><br>
     </section>
 
 
     <section>
-        <header style="background-color: #333; color: #734f96; padding: 10px; text-align: center;">
+        <header style="background-color: #333; color: #985ed1; padding: 10px; text-align: center;">
             <h1>Forms</h1>
         </header>
         <!-- Code for Forms -->
-        <center><form action="#">
+        <form action="#">
             <label for="username">Name: </label><br>
             <input type="text" name="username" id="username" 
             style="width: 25%; padding: 8px; margin-bottom: 10px;"><br>
@@ -73,13 +95,13 @@
             <input type="submit" value="Submit"
             style="background-color: #7FFFD4; color: #0f52ba; padding: 10px;
             border: none; border-radius: 5px; cursor: pointer; margin: 10px;">
-        </form></center>
+        </form>
         <br><hr><br>
     </section>
 
 
     <section>
-        <header style="background-color: #333; color: #734f96; padding: 10px; text-align: center;">
+        <header style="background-color: #333; color: #985ed1; padding: 10px; text-align: center;">
             <h1>Tables</h1>
         </header>
         <!-- Code for Table -->
@@ -108,12 +130,12 @@
     </section>
 
     <section>
-        <header style="background-color: #333; color: #734f96; padding: 10px; text-align: center;">
+        <header style="background-color: #333; color: #985ed1; padding: 10px; text-align: center;">
             <h1>Audio and Video</h1>
         </header>
         <!-- Code for Audio and Video -->
-        <center><audio src="html_ex1_music.mp3" controls style="margin: 20px auto;"></audio></center><br><br>
-        <center><video src="html_ex1_video.mp4" width="320" height="240" controls></video></center><br><hr>
+        <audio src="html_ex1_music.mp3" controls style="margin: 20px auto;"></audio><br><br>
+        <video src="html_ex1_video.mp4" width="320" height="240" controls></video><br><hr>
     </section>
 
     <footer>
