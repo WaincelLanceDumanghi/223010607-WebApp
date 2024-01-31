@@ -4,46 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML-Exercises</title>
-
-    <style>
-        img {
-            display: block;
-            margin: 0 auto;
-        }
-
-        form {
-            display: inline-block;
-        }
-
-        audio {
-            display: block;
-            margin: 0 auto;
-        }
-
-        video {
-            display: block;
-            margin: 0 auto;
-        }
-
-    </style>
+    <link rel="stylesheet" href="wlcd_style.css">
 </head>
-<body style="max-width: 900px; margin: auto; background-color: #d5d0d0; font-family: 'Roboto', sans-serif; text-align: center;">
+<body>
 
     <section>
-        <header style="background-color: #333; color: #985ed1; padding: 10px; text-align: center;">
+        <header>
             <h1>Links</h1>
         </header>
         <!-- Code for Link -->
-        <nav style="display: flex; justify-content: center; background-color: #444; padding: 10px;">
-            <a href="#" style="color: #fff; padding: 10px; margin: 0 10px; border-radius: 5px; transition: background-color 0.3s;"
+        <nav>
+            <a href="#"
             onmouseover="this.style.backgroundColor='#555'"
             onmouseout="this.style.backgroundColor='#444'">Home</a>
 
-            <a href="#" style="color: #fff; padding: 10px; margin: 0 10px; border-radius: 5px; transition: background-color 0.3s;"
+            <a href="#"
             onmouseover="this.style.backgroundColor='#555'"
             onmouseout="this.style.backgroundColor='#444'">About Us</a>
 
-            <a href="#" style="color: #fff; padding: 10px; margin: 0 10px; border-radius: 5px; transition: background-color 0.3s;"
+            <a href="#"
             onmouseover="this.style.backgroundColor='#555'"
             onmouseout="this.style.backgroundColor='#444'">Contact</a>
         </nav>    
@@ -52,39 +31,37 @@
  
 
     <section>
-        <header style="background-color: #333; color: #985ed1; padding: 10px; text-align: center;">
+        <header>
             <h1>Image</h1>
         </header>
         <!-- Code for Image -->
         <figure>
             <img src="josh.jpg" alt="blow my whistle baby~">
-            <figcaption style="text-align: center; padding: 10px;">Photo of Josh Hutcherson that was used in memes recently.</figcaption>
+            <figcaption>Photo of Josh Hutcherson that was used in memes recently.</figcaption>
         </figure>
         <br><hr><br>
     </section>
 
 
     <section>
-        <header style="background-color: #333; color: #985ed1; padding: 10px; text-align: center;">
+        <header>
             <h1>Forms</h1>
         </header>
         <!-- Code for Forms -->
         <form action="#">
             <label for="username">Name: </label><br>
-            <input type="text" name="username" id="username" 
-            style="width: 25%; padding: 8px; margin-bottom: 10px;"><br>
+            <input type="text" name="username" id="username"><br>
 
             <label for="password">Password: </label> <br>
-            <input type="password" name="password" id="password" 
-            required style="width: 25%; padding: 8px; margin-bottom: 10px;"><br>
+            <input type="password" name="password" id="password" required><br>
 
             <label>Gender: </label><br>
             <!-- Male -->
-            <label for="male" style="margin-right: 10px;">
+            <label for="male">
                 <input type="radio" name="gender" value="male" id="male">Male
             </label>
             <!-- Female -->
-            <label for="female" style="margin-right: 10px;">
+            <label for="female">
                 <input type="radio" name="gender" value="female" id="female">Female
             </label><br><br>
 
@@ -92,37 +69,35 @@
                 <input type="checkbox" name="termsNconditions" id="checkbox">I accept the terms and conditions
             </label><br>
 
-            <input type="submit" value="Submit"
-            style="background-color: #7FFFD4; color: #0f52ba; padding: 10px;
-            border: none; border-radius: 5px; cursor: pointer; margin: 10px;">
+            <input type="submit" value="Submit" id="submit">
         </form>
         <br><hr><br>
     </section>
 
 
     <section>
-        <header style="background-color: #333; color: #985ed1; padding: 10px; text-align: center;">
+        <header>
             <h1>Tables</h1>
         </header>
         <!-- Code for Table -->
-        <table style="width: 40%; border-collapse: collapse; margin: 20px auto;">
+        <table>
             <thead>
-                <tr style="background-color: #4caf50; color: #fff; text-align: left;">
-                    <th style="padding: 10px;">Name</th>
-                    <th style="padding: 10px;">Age</th>
-                    <th style="padding: 10px;">City</th>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">John</td>
-                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">25</td>
-                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">New York</td>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>New York</td>
                 </tr>
                 <tr>
-                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">Jane</td>
-                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">30</td>
-                    <td style="padding: 10px; border-bottom: 1px solid #ddd;">Los Angeles</td>
+                    <td>Jane</td>
+                    <td>30</td>
+                    <td>Los Angeles</td>
                 </tr>
             </tbody>
         </table>
@@ -130,12 +105,12 @@
     </section>
 
     <section>
-        <header style="background-color: #333; color: #985ed1; padding: 10px; text-align: center;">
+        <header>
             <h1>Audio and Video</h1>
         </header>
         <!-- Code for Audio and Video -->
-        <audio src="html_ex1_music.mp3" controls style="margin: 20px auto;"></audio><br><br>
-        <video src="html_ex1_video.mp4" width="320" height="240" controls></video><br><hr>
+        <audio src="html_ex1_music.mp3" controls></audio><br><br>
+        <video src="html_ex1_video.mp4" controls></video><br><hr>
     </section>
 
     <footer>
