@@ -1,0 +1,188 @@
+body {
+    max-width: 850px;
+    margin: auto;
+    background-color: #cdcdcd;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #985ed1;
+    padding: 2px;
+    text-align: center;
+}
+
+div {
+    margin-top: 62px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #444;
+    padding: 10 px;
+}
+
+ul.list1 {
+    list-style-type: none;
+    padding: 0px;
+    position: fixed;
+    overflow: hidden;
+    width: 850px;
+    background-color: #303030;
+}
+
+li.sub1 {
+    float: left;
+}
+
+li a.sub1 {
+    display: block;
+    padding: 14px 16px;
+}
+
+ul.list2 {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#Links {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+    margin: 10px 0;
+}
+
+a {
+    color: #fff;
+    margin: 0 10 px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+a:hover {
+    color: #228B22;
+    text-decoration: underline;
+    background-color: #F5F5DC;
+}
+
+#Image {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+    margin: 10px 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px;
+}
+
+#Forms {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+    margin: 10px 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"], input[type="date"], input[type="email"],
+input[type="password"], input[type="radio"], input[type="checkbox"] {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#Tables {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+    margin: 10px 0;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+tr.row1 {
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#Audio-and-Video {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+    margin: 10px 0;
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 320px;
+    height: 240px;
+}
+
+#Iframes {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+    margin: 10px 0;
+}
+
+#Embedded-Content {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+    margin: 10px 0;
+}
+
+.twitter-tweet {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}

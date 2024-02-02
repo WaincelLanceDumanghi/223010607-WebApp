@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Exercises</title>
+    <link rel="stylesheet" href="wlcd_style.css">
+</head>
+<body>
+    <nav>
+        <ul class="list1">
+            <li class="sub1"><a class="sub1" href="#top">Home</a></li>
+            <li class="sub1"><a class="sub1" href="#Links">Links</a></li>
+            <li class="sub1"><a class="sub1" href="#Image">Image</a></li>
+            <li class="sub1"><a class="sub1" href="#Forms">Forms</a></li>
+            <li class="sub1"><a class="sub1" href="#Tables">Tables</a></li>
+            <li class="sub1"><a class="sub1" href="#Audio-and-Video">Audio-and-Video</a></li>
+            <li class="sub1"><a class="sub1" href="#Iframes">Iframes</a></li>
+            <li class="sub1"><a class="sub1" href="#Embedded-Content">Embedded-Content</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <section id="top">  
+            <header>
+                <h1>Webpage that contains <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>
+                    , & JavaScript</h1>
+                <p><i>Disclaimer: This is only for academic purposes!</i></p>
+            </header>
+            
+        </section>
+        <br>
+
+        <section id="Links">
+            <header>
+                <h2>Links</h2>
+            </header>
+            <!-- Code for Link -->
+            <ul class="list2">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>    
+            <br><hr><br>
+        </section>
+
+        <section id="Image">
+            <header>
+                <h2>Image</h2>
+            </header>
+            <!-- Code for Image -->
+            <figure>
+                <img src="josh.jpg" alt="blow my whistle baby~">
+                <figcaption>Photo of Josh Hutcherson that was used in memes recently. <br>
+                Image:<a href="https://www.youtube.com/@MetroGirlzStation" target="_blank"><cite>MetroGirlzStation</cite></a></figcaption>
+            </figure>
+            <br><hr><br>
+        </section>
+
+
+        <section id="Forms">
+            <header>
+                <h2>Forms</h2>
+            </header>
+            <!-- Code for Forms -->
+            <form action="#">
+                <label for="username">Name: </label>
+                <input type="text" name="username" id="username"><br>
+
+                <label for="birthday">Birthday:</label>
+                <input type="date" name="date" id="date" required>
+
+                <label for="email">Create Email:</label>
+                <input type="email" name="email" id="email" required
+                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                title="That is not a valid Email address"><br>
+
+                <label for="password">Create Password: </label> 
+                <input type="password" name="password" id="password" required
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more charactes"><br>
+
+                <label>Gender: </label>
+                <!-- Male -->
+                <label for="male">
+                    <input type="radio" name="gender" value="male" id="male">Male
+                </label>
+                <!-- Female -->
+                <label for="female">
+                    <input type="radio" name="gender" value="female" id="female">Female
+                </label><br><br>
+
+                <label for="checkbox">
+                    <input type="checkbox" name="termsNconditions" id="checkbox">I accept the terms and conditions
+                </label><br>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+            <br><hr><br>
+        </section>
+
+
+        <section id="Tables">
+            <header>
+                <h2>Tables</h2>
+            </header>
+            <!-- Code for Table -->
+            <table>
+                <thead>
+                    <tr class="row1">
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>30</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><hr><br>
+        </section>
+
+        <section id="Audio-and-Video">
+            <header>
+                <h2>Audio and Video</h2>
+            </header>
+            <!-- Code for Audio and Video -->
+            <audio src="html_ex1_music.mp3" controls></audio><br><br>
+            <video src="html_ex1_video.mp4" controls></video><br><hr>
+        </section>
+
+        <section id="Iframes">
+            <header>
+                <h2>Iframes</h2>
+            </header>
+            <!-- Code for Iframes -->
+            <p>Google map of Baguio City proper</p>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1OBkB0bUdHJNwhK413GMossEU4Mw&hl=en_US&ehbc=2E312F" width="640" height="480" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+            <br><hr><br>
+        </section>
+
+        <section id="Embedded-Content">
+            <header>
+                <h2>Embedded-Content</h2>
+            </header>
+            <!-- Code for Embedded-Content -->
+            <p>! Pewdiepie Decided to Pick on a New Hobby !</p>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">PewDiePie’s 100-day drawing journey is actually insane <a href="https://t.co/ENnt4QQBNb">pic.twitter.com/ENnt4QQBNb</a></p>&mdash; Dexerto (@Dexerto) <a href="https://twitter.com/Dexerto/status/1753072401242583112?ref_src=twsrc%5Etfw">February 1, 2024</a></blockquote> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <br><hr><br>
+        </section>
+    </div>
+    
+    <footer>
+        <p><i>© HTML_Exercise_01 <b>WAINCELLANCEDUMANGHI</b></i></p>
+    </footer>
+
+</body>
+</html>
+
