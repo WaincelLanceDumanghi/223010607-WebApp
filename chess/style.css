@@ -1,0 +1,25 @@
+.chessboard{
+    display: flex;
+    background: lightgray;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 800px;
+}
+
+.chessboard>div {
+    flex: 12.5%;
+    height: 100px;
+    margin: auto;
+}
+
+.chessboard>div:nth-child(even){
+    background-color: green;
+}
+
+.chessboard>div:nth-child(odd){
+    background-color: whitesmoke;
+}
+
+.chessboard>div:nth-child(9n+1){
+    order: 2;
+}
