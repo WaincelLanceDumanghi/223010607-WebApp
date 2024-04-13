@@ -7,431 +7,319 @@
 
 <body>
     <nav id="navbar">
-        <header>JS Documentation</header>
+        <header>WEB APPLICATION Development</header>
         <ul>
-            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
-            <li>
-                <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
-            </li>
-            <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
-            <li><a class="nav-link" href="#Variables">Variables</a></li>
-            <li>
-                <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
-            </li>
-            <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
-            <li>
-                <a class="nav-link" href="#Global_variables">Global variables</a>
-            </li>
-            <li><a class="nav-link" href="#Constants">Constants</a></li>
-            <li><a class="nav-link" href="#Data_types">Data types</a></li>
-            <li>
-                <a class="nav-link" href="#if...else_statement">if...else statement</a>
-            </li>
-            <li><a class="nav-link" href="#while_statement">while statement</a></li>
-            <li>
-                <a class="nav-link" href="#Function_declarations">Function declarations</a>
-            </li>
-            <li><a class="nav-link" href="#Reference">Reference</a></li>
+            <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#intro_html" class="nav-link">Introduction of HTML</a></li>
+            <li><a href="#commands_html" class="nav-link">Basic Commands of HTML</a></li>
+            <li><a href="#intro_css" class="nav-link">Introduction of CSS</a></li>
+            <li><a href="#nature_css" class="nav-link">Nature of CSS</a></li>
+            <li><a href="#github" class="nav-link">Github</a></li>
+            <li><a href="#benefits_github" class="nav-link">Benefits using GitHub</a></li>
         </ul>
     </nav>
     <main id="main-doc">
         <section class="main-section" id="Introduction">
-            <header>Introduction</header>
+            <header><h1>Introduction</h1></header>
             <article>
                 <p>
-                    JavaScript is a cross-platform, object-oriented scripting language.
-                    It is a small and lightweight language. Inside a host environment
-                    (for example, a web browser), JavaScript can be connected to the
-                    objects of its environment to provide programmatic control over
-                    them.
+                    Web application development stands at the forefront of modern technological innovation, shaping the digital landscape in profound ways.
+                    As finishing this course, delving into the intricacies of this field, I find myself reflecting on the journey thus far, contemplating
+                    the evolution, challenges, and future prospects of web application development.
                 </p>
 
                 <p>
-                    JavaScript contains a standard library of objects, such as Array,
-                    Date, and Math, and a core set of language elements such as
-                    operators, control structures, and statements. Core JavaScript can
-                    be extended for a variety of purposes by supplementing it with
-                    additional objects; for example:
+                    The evolution of web application development traces a narrative of relentless innovation and adaptation. 
+                    From the redimentary HTML pages of early internet to the sophisticated, immersive application of today, 
+                    . The trajectory has been propelled by a relentless quest for improvement, driven by advancements in technology, 
+                    shifts in user experience, and the dynamic landscape of the digital economy.
                 </p>
+
+                <p>
+                    Yet, beneath the surface of technological progress lies a rich tapestry of human experience and endeavor.
+                    Web application development is not merely about lines of code or algorithms; it is a manifestation of 
+                    human creativity, collaboration, and ingenuity. It is a discipline that bridges the gap betwee art and science, 
+                    where aethetic design meets funtional utility, and where user experience takes precedence over mere functionality
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="intro_html">
+            <header><h1>Introduction of HTML</h1></header>
+            <article>
+                <p>
+                    In the expansive realm of modern web development, HTML stands as the cornerstone of the digital landscape, comprehending
+                    the essence and intricacies of HTML is paramount. Hypertext Markup Language, or HTML, seves as the fundamental language 
+                    for structuring and presenting content on the World Wide Web. Its significance lies not onlyt in it foundational role but 
+                    also in it continuous evolution and adaptation to the dynamic demands of the digital era.
+                </p>
+
+                <p>
+                    As we delve into the essence of HTML,
+                    it becomes apparent that its significance extends far beyond mere syntax and semantics. HTML embodies the core principles 
+                    of accessibility, interoperability, and scalability, making it indispensable for web developers, designers, and enthusiast
+                    alike. Its simplicity beliesin it power, providin a structured frameworkup which the myriad elements of the web are built 
+                    and interconnected.
+                </p>
+                
                 <ul>
-                    <li>
-                        Client-side JavaScript extends the core language by supplying
-                        objects to control a browser and its Document Object Model (DOM).
-                        For example, client-side extensions allow an application to place
-                        elements on an HTML form and respond to user events such as mouse
-                        clicks, form input, and page navigation.
-                    </li>
-                    <li>
-                        Server-side JavaScript extends the core language by supplying
-                        objects relevant to running JavaScript on a server. For example,
-                        server-side extensions allow an application to communicate with a
-                        database, provide continuity of information from one invocation to
-                        another of the application, or perform file manipulations on a
-                        server.
-                    </li>
+                    <li>HTML stands for Hyper Text Markup Languange</li>
+                    <li>HTML is the standard markup language for creating Web pages</li>
+                    <li>Html describes the structure of a Web page</li>
+                    <li>HTML consists of a a series of elements</li>
                 </ul>
             </article>
         </section>
-        <section class="main-section" id="What_you_should_already_know">
-            <header>What you should already know</header>
+
+        <section class="main-section" id="commands_html">
+            <header><h1>Basic Commands of HTML</h1></header>
             <article>
-                <p>This guide assumes you have the following basic background:</p>
+                <p>
+                    Sample HTML code:
+                    DISCLAIMER! The character "< >" that are used of coding will be changed to "[ ]".
+                </p>
+
+                <code>
+                    [!DOCTYPE html]
+                    [html]
+                    [head]
+                    [title] "PAGE TITLE" [/title]
+                    [/head]
+
+                    [body]
+                        [h1] "HELLO WORLD!" [/h1]
+                        [p] "This is my first webpage!" [/p]
+                    [/body]
+
+                    [/html]
+                </code>
 
                 <ul>
-                    <li>
-                        A general understanding of the Internet and the World Wide Web
-                        (WWW).
-                    </li>
-                    <li>Good working knowledge of HyperText Markup Language (HTML).</li>
-                    <li>
-                        Some programming experience. If you are new to programming, try
-                        one of the tutorials linked on the main page about JavaScript.
-                    </li>
+                    What does each command mean:
+                    <li>The "!DOCTYPE html" declaration defins that this document is an HTML5 document.</li>
+                    <li>The "html" element is the root element of an HTML page.</li>
+                    <li>The "head" element conatins meta information about the HTML page.</li>
+                    <li>The "title" element specifies a title for the HTML page, which is shown in the browser's title bar/page tab.</li>
+                    <li>The "body" element defines the document's body, and is a container for all the visible contents suc as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+                    <li>The "h1"-"h6" element defines a large heading.</li>
+                    <li>The "P" element defines a paragraph.</li>
+                </ul><br>
+
+                <p>
+                </p>
+                <ul>
+                    Additional info about commands:
+                    <li>"hr" defines a thematic change in the content.</li>
+                    <li>"!--THIS IS A COMMENT--" defines a user input comment.</li>
+                    <li>"br" breaks content into sending it the next line.</li>
                 </ul>
             </article>
         </section>
-        <section class="main-section" id="JavaScript_and_Java">
-            <header>JavaScript and Java</header>
+
+        <section class="main-section" id="intro_css">
+            <header><h1>Introduction of CSS</h1></header>
             <article>
                 <p>
-                    JavaScript and Java are similar in some ways but fundamentally
-                    different in some others. The JavaScript language resembles Java but
-                    does not have Java's static typing and strong type checking.
-                    JavaScript follows most Java expression syntax, naming conventions
-                    and basic control-flow constructs which was the reason why it was
-                    renamed from LiveScript to JavaScript.
+                CSS, short for Cascading Style Sheets, is a powerful language used to style the presentation of HTML documents.
+                While HTML provides the structure and content of a web page, CSS allows you to control how that content is displayed 
+                on the screen. With CSS, you can define styles for various elements of your HTML document, such as fonts, colors, spacing, layour,
+                and more. By separating the content from its presentation, CSS promotes cleaner code, easier maintenance, and greater flexibility
+                in design.    
+                </p><br>
+
+                <h3>Types of Cascading Style Sheets</h3>
+                <ul>
+                    Inline CSS
+                    <li>Inline CSS is applied directly to HTML elements using the "style" attribute.</li>
+                    <li>Styles defined inline override any external or internal CSS rules.</li><br>
+
+                    Internal CSS
+                    <li>Internal CSS is placed within the "style" element in the "head" section of an HTML document.</li>
+                    <li>Styles defined internally apply to the entire document.</li><br>
+
+                    External CSS
+                    <li>External CSS is stored in separate CSS files and linked to HTML documents using the "link" element.</li>
+                    <li>Allows for better organization and reusability of styles across multiple pages.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="main-section" id="nature_css">
+            <header><h1>Nature of CSS</h1></header>
+                <article>
+                    <h3><i>DISCLAIMER! The character "< >" that are used of coding will be changed to "[ ]".</i></h3>
+                    <h4>Inline CSS</h4>
+                    <code>
+                        [!DOCTYPE html]
+                        [html lang="en"]
+                        [head]
+                            [meta charset="UTF-8"]
+                            [meta name="viewport" content="width=device-width, initial-scale=1.0"]
+                            [title] Inline CSS [/title]
+                        [/head]
+                        
+                        [body]
+                            [h1] Welcome to CSS! [/h1]
+                            <b>/* Inline CSS */
+                            [p style="color: blue; font-size: 16px;"]This is a basic introduction to CSS in HTML. With CSS, 
+                            you can style your web pages to make them visually appealing and user-friendly. [/p] </b>
+                        [/body]
+
+                        [/html]
+                    </code><br>
+                    
+                    <h4>Internal CSS</h4>
+                    <code>
+                        [!DOCTYPE html]
+                        [html lang="en"]
+                        [head]
+                            [meta charset="UTF-8"]
+                            [meta name="viewport" content="width=device-width, initial-scale=1.0"]
+                            [title] Internal CSS [/title]
+
+                            <b>/* Internal CSS *
+                            [style]
+                                body {
+                                    font-family: Arial, san-serif;
+                                    background-color: green;
+                                    color: black;
+                                }
+
+                                h1 {
+                                    color: #007bff;
+                                }
+
+                                p {
+                                    line-height:1.6;
+                                }
+                            [/style]/</b>
+                        [/head]    
+                        
+                        [body]
+                            [h1] Welcome to CSS! [/h1]
+                            [p]This is a basic introduction to CSS in HTML. With CSS, 
+                            you can style your web pages to make them visually appealing and user-friendly. [/p]
+                        [/body]
+
+                        [/html]
+                    </code><br>
+
+                    <h4>External CSS</h4>
+                    <code>
+                        [!DOCTYPE html]
+                        [html lang="en"]
+                        [head]
+                            [meta charset="UTF-8"]
+                            [meta name="viewport" content="width=device-width, initial-scale=1.0"]
+                            [title] External CSS [/title]
+                            <b>/*External CSS*/
+                            [link rel="stylesheet" type="text/css" href="styles.css"]</b>
+                        [/head]    
+                        
+                        [body]
+                            [h1] Welcome to CSS! [/h1]
+                            [p]This is a basic introduction to CSS in HTML. With CSS, 
+                            you can style your web pages to make them visually appealing and user-friendly. [/p]
+                        [/body]
+
+                        [/html]
+                    </code><br>
+                </article>
+        </section>
+
+        <section class="main-section" id="github">
+            <header><h1>Introduction to GitHub</h1></header>
+            <article>
+                <p>
+                    Github is a powerful platform that revolutionizes the way develops collaborate on projects, 
+                    manage codebases, and streamline the software development lifecycle. Whether you're a seasoned 
+                    developer or just starting out, Github offers a suite of tools and features to enhance productivity,
+                    foster collaboration, and ensure the success of your projects.
                 </p>
 
                 <p>
-                    In contrast to Java's compile-time system of classes built by
-                    declarations, JavaScript supports a runtime system based on a small
-                    number of data types representing numeric, Boolean, and string
-                    values. JavaScript has a prototype-based object model instead of the
-                    more common class-based object model. The prototype-based model
-                    provides dynamic inheritance; that is, what is inherited can vary
-                    for individual objects. JavaScript also supports functions without
-                    any special declarative requirements. Functions can be properties of
-                    objects, executing as loosely typed methods.
+                    At its core, GitHub is Git repository hosting service, which means it provides a centralized location
+                    for storin and managing your Git repositories. Git, created by Linus Torvals, is a distributed version
+                    control system that allows developers to track changes to their code, collaborate with others, and 
+                    maintain a historyof their project's development.
                 </p>
-                <p>
-                    JavaScript is a very free-form language compared to Java. You do not
-                    have to declare all variables, classes, and methods. You do not have
-                    to be concerned with whether methods are public, private, or
-                    protected, and you do not have to implement interfaces. Variables,
-                    parameters, and function return types are not explicitly typed.
-                </p>
-            </article>
-        </section>
-        <section class="main-section" id="Hello_world">
-            <header>Hello world</header>
-            <article>
-                To get started with writing JavaScript, open the Scratchpad and write
-                your first "Hello world" JavaScript code:
-                <code>function greetMe(yourName) { alert("Hello " + yourName); }
-            greetMe("World");
-          </code>
 
-                Select the code in the pad and hit Ctrl+R to watch it unfold in your
-                browser!
+                <p>
+                    GitHub takes Git to the next level by adding a social and collaborative layer on top of the version of
+                    control functionality. Let's delve into some key features that make GitHub indispensable for developers.
+                </p>
+            </article><br>
+
+            <article>
+                <h2>Key features of GitHub:</h2>
+                <h3>1. Cloning Repository To Local Computer</h3>
+                <code>
+                    git clone https://github.com/yourUsenameInGithub/nameOfyourRepository.git
+                </code>
+                <p>This allows you to copy an existing repository in your account, where you can copy it anywhere on you devices.</p>
+
+                <h3>2. Updating Local Repository</h3>
+                <code>
+                    git pull
+                </code>
+                <p>This allows you to update your current local repository which you have cloned in you computer.</p>
+
+                <h3>3. Adding a File/Folder To Your Repository in GitHub</h3>
+                <code>
+                    git add . --> for all your current local folders 
+                    or
+                    git add abc.html --> specific files
+                    or
+                    git add "nameOfFOlder" --> entire folders that you can add
+
+                    git commit -m "YOUR DESCRIPTION TO WHAT YOU HAVE ADDED"
+                </code>
+                <p>This allows you to add and commit your files on queue.</p>
+
+                <h3>4. Pushing Your Queued Files Into Your GitHub Repository Online</h3>
+                <code>
+                    git push
+                </code>
+                <p>This allows you to push your files on queue in your repository folder at GitHub.</p>
+
+                <h3>5. Amend or Rename Commit Message</h3>
+                <code>
+                    git commit --amend -m "NEW DESCRIPTION TO WHAT YOU WANT TO CHANGE"
+                </code>
+                <p>This allows you to rename your commit message.</p>
             </article>
         </section>
-        <section class="main-section" id="Variables">
-            <header>Variables</header>
-            <p>
-                You use variables as symbolic names for values in your application.
-                The names of variables, called identifiers, conform to certain rules.
+
+        <section class="main-section" id="benefits_github">
+            <header><h1>Benefits Using GitHub</h1></header>
+            <p>GitHub provides a comprehensive set of tools and services to help you with your development projects.
+                By joining GitHub, you become part of a global developer community that is shaping the fututre of 
+                software development and driving innovation accress industries.
             </p>
-            <p>
-                A JavaScript identifier must start with a letter, underscore (_), or
-                dollar sign ($); subsequent characters can also be digits (0-9).
-                Because JavaScript is case sensitive, letters include the characters
-                "A" through "Z" (uppercase) and the characters "a" through "z"
-                (lowercase).
-            </p>
-            <p>
-                You can use ISO 8859-1 or Unicode letters such as å and ü in
-                identifiers. You can also use the Unicode escape sequences as
-                characters in identifiers. Some examples of legal names are
-                Number_hits, temp99, and _name.
-            </p>
-        </section>
-        <section class="main-section" id="Declaring_variables">
-            <header>Declaring variables</header>
-            <article>
-                You can declare a variable in three ways:
-                <p>
-                    With the keyword var. For example, <code>var x = 42.</code> This
-                    syntax can be used to declare both local and global variables.
-                </p>
-                <p>
-                    By simply assigning it a value. For example,
-                    <code>x = 42.</code> This always declares a global variable. It
-                    generates a strict JavaScript warning. You shouldn't use this
-                    variant.
-                </p>
-                <p>
-                    With the keyword let. For example,<code> let y = 13.</code> This
-                    syntax can be used to declare a block scope local variable. See
-                    Variable scope below.
-                </p>
-            </article>
-        </section>
-        <section class="main-section" id="Variable_scope">
-            <header>Variable scope</header>
-            <article>
-                <p>
-                    When you declare a variable outside of any function, it is called a
-                    global variable, because it is available to any other code in the
-                    current document. When you declare a variable within a function, it
-                    is called a local variable, because it is available only within that
-                    function.
-                </p>
 
-                <p>
-                    JavaScript before ECMAScript 2015 does not have block statement
-                    scope; rather, a variable declared within a block is local to the
-                    function (or global scope) that the block resides within. For
-                    example the following code will log 5, because the scope of x is the
-                    function (or global context) within which x is declared, not the
-                    block, which in this case is an if statement.
-                </p>
-                <code>if (true) { var x = 5; } console.log(x); // 5</code>
-                <p>
-                    This behavior changes, when using the let declaration introduced in
-                    ECMAScript 2015.
-                </p>
-
-                <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is
-            not defined</code>
-            </article>
-        </section>
-        <section class="main-section" id="Global_variables">
-            <header>Global variables</header>
-            <article>
-                <p>
-                    Global variables are in fact properties of the global object. In web
-                    pages the global object is window, so you can set and access global
-                    variables using the window.variable syntax.
-                </p>
-
-                <p>
-                    Consequently, you can access global variables declared in one window
-                    or frame from another window or frame by specifying the window or
-                    frame name. For example, if a variable called phoneNumber is
-                    declared in a document, you can refer to this variable from an
-                    iframe as parent.phoneNumber.
-                </p>
-            </article>
-        </section>
-        <section class="main-section" id="Constants">
-            <header>Constants</header>
-            <article>
-                <p>
-                    You can create a read-only, named constant with the const keyword.
-                    The syntax of a constant identifier is the same as for a variable
-                    identifier: it must start with a letter, underscore or dollar sign
-                    and can contain alphabetic, numeric, or underscore characters.
-                </p>
-
-                <code>const PI = 3.14;</code>
-                <p>
-                    A constant cannot change value through assignment or be re-declared
-                    while the script is running. It has to be initialized to a value.
-                </p>
-
-                <p>
-                    The scope rules for constants are the same as those for let block
-                    scope variables. If the const keyword is omitted, the identifier is
-                    assumed to represent a variable.
-                </p>
-
-                <p>
-                    You cannot declare a constant with the same name as a function or
-                    variable in the same scope. For example:
-                </p>
-
-                <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
-            WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
-            //statements }</code>
-                However, object attributes are not protected, so the following
-                statement is executed without problems.
-                <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
-            "otherValue";</code>
-            </article>
-        </section>
-        <section class="main-section" id="Data_types">
-            <header>Data types</header>
-            <article>
-                <p>The latest ECMAScript standard defines seven data types:</p>
-                <ul>
-                    <li>
-                        <p>Six data types that are primitives:</p>
-                        <ul>
-                            <li>Boolean. true and false.</li>
-                            <li>
-                                null. A special keyword denoting a null value. Because
-                                JavaScript is case-sensitive, null is not the same as Null,
-                                NULL, or any other variant.
-                            </li>
-                            <li>
-                                undefined. A top-level property whose value is undefined.
-                            </li>
-                            <li>Number. 42 or 3.14159.</li>
-                            <li>String. "Howdy"</li>
-                            <li>
-                                Symbol (new in ECMAScript 2015). A data type whose instances
-                                are unique and immutable.
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>and Object</li>
-                </ul>
-                Although these data types are a relatively small amount, they enable
-                you to perform useful functions with your applications. Objects and
-                functions are the other fundamental elements in the language. You can
-                think of objects as named containers for values, and functions as
-                procedures that your application can perform.
-            </article>
-        </section>
-        <section class="main-section" id="if...else_statement">
-            <header>if...else statement</header>
-            <article>
-                Use the if statement to execute a statement if a logical condition is
-                true. Use the optional else clause to execute a statement if the
-                condition is false. An if statement looks as follows:
-
-                <code>if (condition) { statement_1; } else { statement_2; }</code>
-                condition can be any expression that evaluates to true or false. See
-                Boolean for an explanation of what evaluates to true and false. If
-                condition evaluates to true, statement_1 is executed; otherwise,
-                statement_2 is executed. statement_1 and statement_2 can be any
-                statement, including further nested if statements.
-                <p>
-                    You may also compound the statements using else if to have multiple
-                    conditions tested in sequence, as follows:
-                </p>
-                <code>if (condition_1) { statement_1; } else if (condition_2) {
-            statement_2; } else if (condition_n) { statement_n; } else {
-            statement_last; }
-          </code>
-                In the case of multiple conditions only the first logical condition
-                which evaluates to true will be executed. To execute multiple
-                statements, group them within a block statement ({ ... }) . In
-                general, it's good practice to always use block statements, especially
-                when nesting if statements:
-
-                <code>if (condition) { statement_1_runs_if_condition_is_true;
-            statement_2_runs_if_condition_is_true; } else {
-            statement_3_runs_if_condition_is_false;
-            statement_4_runs_if_condition_is_false; }</code>
-                It is advisable to not use simple assignments in a conditional
-                expression, because the assignment can be confused with equality when
-                glancing over the code. For example, do not use the following code:
-                <code>if (x = y) { /* statements here */ }</code> If you need to use
-                an assignment in a conditional expression, a common practice is to put
-                additional parentheses around the assignment. For example:
-
-                <code>if ((x = y)) { /* statements here */ }</code>
-            </article>
-        </section>
-        <section class="main-section" id="while_statement">
-            <header>while statement</header>
-            <article>
-                A while statement executes its statements as long as a specified
-                condition evaluates to true. A while statement looks as follows:
-
-                <code>while (condition) statement</code> If the condition becomes
-                false, statement within the loop stops executing and control passes to
-                the statement following the loop.
-
-                <p>
-                    The condition test occurs before statement in the loop is executed.
-                    If the condition returns true, statement is executed and the
-                    condition is tested again. If the condition returns false, execution
-                    stops and control is passed to the statement following while.
-                </p>
-
-                <p>
-                    To execute multiple statements, use a block statement ({ ... }) to
-                    group those statements.
-                </p>
-
-                Example:
-
-                <p>
-                    The following while loop iterates as long as n is less than three:
-                </p>
-
-                <code>var n = 0; var x = 0; while (n &lt; 3) { n++; x += n; }</code>
-                <p>
-                    With each iteration, the loop increments n and adds that value to x.
-                    Therefore, x and n take on the following values:
-                </p>
-
-                <ul>
-                    <li>After the first pass: n = 1 and x = 1</li>
-                    <li>After the second pass: n = 2 and x = 3</li>
-                    <li>After the third pass: n = 3 and x = 6</li>
-                </ul>
-                <p>
-                    After completing the third pass, the condition n &lt; 3 is no longer
-                    true, so the loop terminates.
-                </p>
-            </article>
-        </section>
-        <section class="main-section" id="Function_declarations">
-            <header>Function declarations</header>
-            <article>
-                A function definition (also called a function declaration, or function
-                statement) consists of the function keyword, followed by:
-
-                <ul>
-                    <li>The name of the function.</li>
-                    <li>
-                        A list of arguments to the function, enclosed in parentheses and
-                        separated by commas.
-                    </li>
-                    <li>
-                        The JavaScript statements that define the function, enclosed in
-                        curly brackets, { }.
-                    </li>
-                </ul>
-                <p>
-                    For example, the following code defines a simple function named
-                    square:
-                </p>
-
-                <code>function square(number) { return number * number; }</code>
-                <p>
-                    The function square takes one argument, called number. The function
-                    consists of one statement that says to return the argument of the
-                    function (that is, number) multiplied by itself. The return
-                    statement specifies the value returned by the function.
-                </p>
-                <code>return number * number;</code>
-                <p>
-                    Primitive parameters (such as a number) are passed to functions by
-                    value; the value is passed to the function, but if the function
-                    changes the value of the parameter, this change is not reflected
-                    globally or in the calling function.
-                </p>
-            </article>
-        </section>
-        <section class="main-section" id="Reference">
-            <header>Reference</header>
-            <article>
-                <ul>
-                    <li>
-                        All the documentation in this page is taken from
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN</a>
-                    </li>
-                </ul>
-            </article>
-        </section>
+            <ul>
+                Some of the benifits of using GitHub:
+                <li>
+                    Each GitHub repository serves as a central hub for your projects, containing all of the codebase's
+                    files, folders, and version history.
+                </li>
+                <li>
+                    It offers a variety of collaboration tools to help developers work together and communicate more effectively.
+                </li>
+                <li>
+                    An open-source enthusiasts and organization that actively contribute to projects, share knowledge,
+                    and support one another's efforts.
+                </li>
+                <li>
+                    It helps to streamline your development workflow, improve code quality, and ensure that your applicatons are always
+                    up-to-date and functioning properly.
+                </li>
+                <li>
+                    GitHub prioritizes code security and offers powerful tools for managing access permissions, enforcing
+                    security policies, and identifying vulnerabilities in your dependencies.
+                </li>
+            </ul>
+        </section>        
     </main>
 </body>
 
