@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: #C1E1C1;
     font-family: 'Lato', sans-serif;
 }
 
@@ -56,7 +56,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #eee;
+    background-color: #d63d42;
 }
 
 @media (max-width: 600px) {
@@ -134,7 +134,7 @@ nav>ul {
     justify-content: center;
     text-align: center;
     height: 200px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #hero>h2 {
@@ -154,11 +154,11 @@ nav>ul {
     height: 30px;
     margin: 15px 0;
     border: 0;
-    background-color: #f1c40f;
+    background-color: #d63d42;
 }
 
 #hero input[type='submit']:hover {
-    background-color: orange;
+    background-color: #36802d;
     transition: background-color 1s;
 }
 
@@ -178,7 +178,7 @@ nav>ul {
     justify-content: center;
     height: 125px;
     width: 20vw;
-    color: darkorange;
+    color: #36802d;
 }
 
 @media (max-width: 550px) {
@@ -241,7 +241,7 @@ nav>ul {
 }
 
 .product>.level {
-    background-color: #ddd;
+    background-color: #d63d42;
     color: black;
     padding: 15px 0;
     width: 100%;
@@ -269,7 +269,7 @@ nav>ul {
 }
 
 .product>button:hover {
-    background-color: orange;
+    background-color: #36802d;
     transition: background-color 1s;
 }
 
@@ -288,7 +288,7 @@ nav>ul {
 
 footer {
     margin-top: 30px;
-    background-color: #ddd;
+    background-color: #f0e1d9;
     padding: 20px;
 }
 
